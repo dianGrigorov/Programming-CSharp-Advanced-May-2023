@@ -24,11 +24,22 @@ for (int i = 0; i < n; i++)
 	}
 	if (curComm == 3)
 	{
-        Console.WriteLine(stack.Max());
+		if (stack.Count > 0)
+		{
+            Console.WriteLine(stack.Max());
+        }
+        
     }
 	if (curComm == 4)
 	{
-        Console.WriteLine(stack.Min());
+		if (stack.Count > 0)
+		{
+            Console.WriteLine(stack.Min());
+        }
+        
     }
 }
-Console.WriteLine(string.Join(", ", stack));
+if (stack.Count > 0)
+{
+    Console.WriteLine(string.Join(", ", stack));
+}
