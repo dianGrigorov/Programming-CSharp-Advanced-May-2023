@@ -4,22 +4,19 @@ string[] songs = Console.ReadLine().Split(", ");
 
 Queue<string> songsQueue = new Queue<string>(songs);
 
-while (true)
+while (songsQueue.Count > 0)
 {
     string[] commandArg = Console.ReadLine().Split();
     string currCom = commandArg[0];
 
     if (currCom == "Play")
     {
-        if (songsQueue.Count > 0 )
-        {
-            songsQueue.Dequeue();
-        }
-        else
+        songsQueue.Dequeue();
+        if (songsQueue.Count == 0 )
         {
             Console.WriteLine("No more songs!");
-            break;
         }
+        
     }
     else if (currCom == "Add")
     {
