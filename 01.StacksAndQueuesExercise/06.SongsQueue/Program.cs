@@ -16,8 +16,8 @@ while (songsQueue.Count > 0)
         {
             Console.WriteLine("No more songs!");
         }
-        
     }
+    
     else if (currCom == "Add")
     {
         string song = string.Join(" ", commandArg.Skip(1));

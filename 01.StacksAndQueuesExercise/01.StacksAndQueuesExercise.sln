@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.BasicsStacksOperation", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.BasicQueueOperations", "02.BasicQueueOperations\02.BasicQueueOperations.csproj", "{B1EBD7A7-B5E1-4B1A-B4F3-ECE1DABE3FCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaxAndMInElement", "03.MaxAndMInElement\03.MaxAndMInElement.csproj", "{927C22E1-7A68-4556-A290-15D1D2768CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MaxAndMInElement", "03.MaxAndMInElement\03.MaxAndMInElement.csproj", "{927C22E1-7A68-4556-A290-15D1D2768CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FastFood", "04.FastFood\04.FastFood.csproj", "{D5961459-ACA0-4BBA-97FB-5429B1C6BBAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.FastFood", "04.FastFood\04.FastFood.csproj", "{D5961459-ACA0-4BBA-97FB-5429B1C6BBAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FashionBotique", "05.FashionBotique\05.FashionBotique.csproj", "{39A24ACE-8617-47C0-975D-EB9D2392A763}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FashionBotique", "05.FashionBotique\05.FashionBotique.csproj", "{39A24ACE-8617-47C0-975D-EB9D2392A763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SongsQueue", "06.SongsQueue\06.SongsQueue.csproj", "{67626DB6-C4E4-462C-93A7-2769C052241A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SongsQueue", "06.SongsQueue\06.SongsQueue.csproj", "{67626DB6-C4E4-462C-93A7-2769C052241A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TruckTour", "07.TruckTour\07.TruckTour.csproj", "{1FBB5A6B-FAB2-42C4-912D-122267B11054}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{67626DB6-C4E4-462C-93A7-2769C052241A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67626DB6-C4E4-462C-93A7-2769C052241A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67626DB6-C4E4-462C-93A7-2769C052241A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBB5A6B-FAB2-42C4-912D-122267B11054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBB5A6B-FAB2-42C4-912D-122267B11054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBB5A6B-FAB2-42C4-912D-122267B11054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBB5A6B-FAB2-42C4-912D-122267B11054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
