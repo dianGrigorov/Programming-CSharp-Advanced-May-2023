@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FashionBotique", "05.Fas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SongsQueue", "06.SongsQueue\06.SongsQueue.csproj", "{67626DB6-C4E4-462C-93A7-2769C052241A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TruckTour", "07.TruckTour\07.TruckTour.csproj", "{1FBB5A6B-FAB2-42C4-912D-122267B11054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TruckTour", "07.TruckTour\07.TruckTour.csproj", "{1FBB5A6B-FAB2-42C4-912D-122267B11054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BalancedParentheses", "08.BalancedParentheses\08.BalancedParentheses.csproj", "{33869BFB-84C7-4DE9-A89A-03AF2B193D5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1FBB5A6B-FAB2-42C4-912D-122267B11054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FBB5A6B-FAB2-42C4-912D-122267B11054}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FBB5A6B-FAB2-42C4-912D-122267B11054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33869BFB-84C7-4DE9-A89A-03AF2B193D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33869BFB-84C7-4DE9-A89A-03AF2B193D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33869BFB-84C7-4DE9-A89A-03AF2B193D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33869BFB-84C7-4DE9-A89A-03AF2B193D5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

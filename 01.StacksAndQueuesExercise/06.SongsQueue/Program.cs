@@ -8,7 +8,7 @@ while (songsQueue.Count > 0)
 {
     string[] commandArg = Console.ReadLine().Split();
     string currCom = commandArg[0];
-
+ 
     if (currCom == "Play")
     {
         songsQueue.Dequeue();
