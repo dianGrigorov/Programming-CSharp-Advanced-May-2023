@@ -14,7 +14,7 @@ foreach (char item in parentheses)
         if (stack.Count == 0)
         {
             output = "NO";
-            return;
+            break;
         }
         else
         {
@@ -42,6 +42,3 @@ else
 {
     Console.WriteLine(output);
 }
-
-
-
