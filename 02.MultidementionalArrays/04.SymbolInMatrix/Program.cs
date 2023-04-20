@@ -1,8 +1,6 @@
 ﻿int n = int.Parse(Console.ReadLine());
 char[,] matrix = new char[n,n];
-int symbolRow = 0;
-int symbolCol = 0;
-bool containSymbol = false;
+
 for (int row = 0; row < matrix.GetLength(0); row++)
 {
     string chars = Console.ReadLine();
