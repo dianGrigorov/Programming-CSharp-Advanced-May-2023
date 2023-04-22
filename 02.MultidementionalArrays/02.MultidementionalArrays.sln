@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SymbolInMatrix", "04.Sym
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SquareWithMatrixSum", "05.SquareWithMatrixSum\05.SquareWithMatrixSum.csproj", "{B29F4621-CAEF-48F0-B07B-E5DE58AD40E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayModification", "06.JaggedArrayModification\06.JaggedArrayModification.csproj", "{DFAC8707-44FF-4266-B40D-C6E7FC369627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PascalTriangle", "07.PascalTriangle\07.PascalTriangle.csproj", "{164A201E-3396-4F11-96BD-B6ED7A2E57B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B29F4621-CAEF-48F0-B07B-E5DE58AD40E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B29F4621-CAEF-48F0-B07B-E5DE58AD40E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B29F4621-CAEF-48F0-B07B-E5DE58AD40E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAC8707-44FF-4266-B40D-C6E7FC369627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAC8707-44FF-4266-B40D-C6E7FC369627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAC8707-44FF-4266-B40D-C6E7FC369627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAC8707-44FF-4266-B40D-C6E7FC369627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164A201E-3396-4F11-96BD-B6ED7A2E57B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164A201E-3396-4F11-96BD-B6ED7A2E57B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164A201E-3396-4F11-96BD-B6ED7A2E57B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164A201E-3396-4F11-96BD-B6ED7A2E57B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
