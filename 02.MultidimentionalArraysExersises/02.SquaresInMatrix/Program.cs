@@ -1,5 +1,5 @@
 ﻿int[] dimentions = Console.ReadLine()
-    .Split()
+    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
     .Select(int.Parse)
     .ToArray();
 int rows = dimentions[0];
@@ -9,7 +9,7 @@ int count = 0;
 for (int row = 0; row < rows; row++)
 {
     char[] chars = Console.ReadLine()
-        .Split()
+        .Split(" ", StringSplitOptions.RemoveEmptyEntries)
         .Select(char.Parse)
         .ToArray();
     for (int col = 0; col < cols; col++)
