@@ -1,18 +1,22 @@
-﻿int[] dimentions = Console.ReadLine()
+﻿
+int[] dimension = Console.ReadLine()
     .Split(" ", StringSplitOptions.RemoveEmptyEntries)
     .Select(int.Parse)
     .ToArray();
-int rows = dimentions[0];
-int cols = dimentions[1];
+
+int rows = dimension[0];
+int cols = dimension[1];
+
 string[,] matrix = new string[rows, cols];
+
 for (int row = 0; row < rows; row++)
 {
-    string[] value = Console.ReadLine()
-        .Split(" ", StringSplitOptions.RemoveEmptyEntries);
-       
+    string[] valu = Console.ReadLine()
+    .Split(" ", StringSplitOptions.RemoveEmptyEntries);
+
     for (int col = 0; col < cols; col++)
     {
-        matrix[row, col] = value[col];
+        matrix[row, col] = valu[col];
     }
 }
 
@@ -20,41 +24,38 @@ string command;
 
 while ((command = Console.ReadLine().ToLower()) != "end")
 {
-    string[] tokens = command
-        .Split(" ", StringSplitOptions.RemoveEmptyEntries);
-    if (IsValidCommand(tokens))
+    string[] commArg = command.Split();
+    
+    if (IsCommandValid(commArg, matrix))
     {
-        string tempValue = matrix[int.Parse(tokens[1]), int.Parse(tokens[2])];
-        matrix[int.Parse(tokens[1]), int.Parse(tokens[2])] = matrix[int.Parse(tokens[3]), int.Parse(tokens[4])];
-        matrix[int.Parse(tokens[3]), int.Parse(tokens[4])] = tempValue;
+        string tempValu = matrix[int.Parse(commArg[1]), int.Parse(commArg[2])];
 
-        PrintMatrix();
+        matrix[int.Parse(commArg[1]), int.Parse(commArg[2])] = 
+            matrix[int.Parse(commArg[3]), int.Parse(commArg[4])];
+        matrix[int.Parse(commArg[3]), int.Parse(commArg[4])] = tempValu;
+        PrintMatrix(matrix);
     }
     else
     {
         Console.WriteLine("Invalid input!");
     }
-
-
 }
 
-bool IsValidCommand(string[] tokens)
+static bool IsCommandValid(string[] commArg, string[,] matrix)
 {
-    return
-        tokens[0] == "swap" &&
-        tokens.Length == 5 &&
-        int.Parse(tokens[1]) >= 0 && int.Parse(tokens[1]) < rows &&
-        int.Parse(tokens[2]) >= 0 && int.Parse(tokens[2]) < cols &&
-        int.Parse(tokens[3]) >= 0 && int.Parse(tokens[3]) < rows &&
-        int.Parse(tokens[4]) >= 0 && int.Parse(tokens[4]) < cols;
-
+    return commArg.Length == 5
+        &&commArg[0] == "swap"
+        && int.Parse(commArg[1]) >= 0 && int.Parse(commArg[1]) < matrix.GetLength(0)
+        && int.Parse(commArg[2]) >= 0 && int.Parse(commArg[2]) < matrix.GetLength(1)
+        && int.Parse(commArg[3]) >= 0 && int.Parse(commArg[3]) < matrix.GetLength(0)
+        && int.Parse(commArg[4]) >= 0 && int.Parse(commArg[4]) < matrix.GetLength(1);
 }
 
-void PrintMatrix()
+static void PrintMatrix(string[,] matrix)
 {
-    for (int row = 0; row < rows; row++)
+    for (int row = 0; row < matrix.GetLength(0); row++)
     {
-        for (int col = 0; col < cols; col++)
+        for (int col = 0; col < matrix.GetLength(1); col++)
         {
             Console.Write(matrix[row, col] + " ");
         }

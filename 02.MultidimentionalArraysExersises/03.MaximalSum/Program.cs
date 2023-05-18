@@ -45,7 +45,7 @@ for (int row = 0; row < rows - 2; row++)
     }
 }
 
-Console.WriteLine($"sum = {maxSum}");
+Console.WriteLine($"Sum = {maxSum}");
 for (int row = maxRow; row < maxRow + 3; row++)
 {
     for (int col = maxCol; col < maxCol + 3; col++)
