@@ -45,6 +45,7 @@ Console.WriteLine($"Alive cells: {aliveCells}");
 Console.WriteLine($"Sum: {sum}");
 
 PrintMatrix(size, matrix);
+
 void Explode(int row, int col, int size, int[,] matrix)
 {
     int value = matrix[row, col];
