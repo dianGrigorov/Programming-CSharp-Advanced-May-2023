@@ -25,5 +25,4 @@ foreach (var student in averageGrades)
     }
     Console.WriteLine($"(avg: {student.Value.Average():f2})");
 
-
 }
