@@ -16,5 +16,5 @@ for (int i = 0; i < input.Length; i++)
 
 foreach (var ch in symbols.OrderBy(x => x.Key))
 {
-    Console.WriteLine($"{ch.Key}: {ch.Value} times/s");
+    Console.WriteLine($"{ch.Key}: {ch.Value} time/s");
 }
