@@ -1,4 +1,5 @@
-﻿int n = int.Parse(Console.ReadLine());
+﻿
+int n = int.Parse(Console.ReadLine());
 
 HashSet<string> names = new HashSet<string>();
 
@@ -12,3 +13,9 @@ foreach (string name in names)
 {
     Console.WriteLine(name);
 }
+//first.UnionWith(second);
+//first.IntersectWith(second);
+//first.ExceptWith(second);
+//second.ExceptWith(first);
+//second.SymmetricExceptWith(first);
+//first.SymmetricExceptWith(second);
