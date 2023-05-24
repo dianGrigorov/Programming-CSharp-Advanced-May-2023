@@ -14,6 +14,20 @@
 
         public static void GetFolderSize(string folderPath, string outputFilePath)
         {
+
+            double sum = 0;
+
+            DirectoryInfo dir = new DirectoryInfo(folderPath);
+            FileInfo[] files = dir.GetFiles("*", SearchOption.AllDirectories);
+
+            foreach (FileInfo file in files)
+            {
+                sum += file.Length;
+            }
+
+            sum = sum / 1024.0;
+            File.WriteAllText(outputFilePath, sum.ToString())
+            ;
         }
     }
 }
