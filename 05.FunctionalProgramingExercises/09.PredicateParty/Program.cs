@@ -30,7 +30,7 @@ while ((command = Console.ReadLine()) != "Party!")
 
 if (people.Any())
 {
-    Console.WriteLine($"{string.Join(" ", people)} are going to the party!");
+    Console.WriteLine($"{string.Join(", ", people)} are going to the party!");
 }
 else
 {
