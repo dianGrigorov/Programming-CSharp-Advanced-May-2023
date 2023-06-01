@@ -4,18 +4,18 @@ public class StartUp
 {
     static void Main()
     {
-        Car car = new Car()
+      
+        var tires = new Tire[4]
         {
-            Make = "VW",
-            Model = "Pasat",
-            Year = 2006,
-            FuelQuantity = 200,
-            FuelConsumption = 200,
-
+            new Tire(2,2.3),
+            new Tire(2,2.3),
+            new Tire(2,2.2),
+            new Tire(2,2.2),
         };
-        car.Drive(2000);
-        Console.WriteLine(car.WhoAmI());
 
-        
+        Engine engine = new Engine(200, 2);
+
+        var car = new Car("Lambo", "Urus", 2010, 250, 9 , engine, tires);
+        Console.WriteLine(car.WhoAmI());
     }
 }
