@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using GenericScale;
+
+EqualityScale<int> scale = new(5, 56);
+
+Console.WriteLine(scale.AreEqual());
