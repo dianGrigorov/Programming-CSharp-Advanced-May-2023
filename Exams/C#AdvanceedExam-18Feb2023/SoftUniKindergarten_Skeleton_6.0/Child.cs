@@ -1,4 +1,6 @@
-﻿namespace SoftUniKindergarten
+﻿using System.Text;
+
+namespace SoftUniKindergarten
 {
     public class Child
     {
@@ -19,8 +21,11 @@
 
         public override string ToString()
         {
-            string result = $"Child: {FirstName} {LastName}, Age: {Age}, Contact info: {ParentName} - {ContactNumber}".Trim();
-            return result;
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Child: {FirstName} {LastName}, Age: {Age}, Contact info: {ParentName} - {ContactNumber}");
+            
+            return sb.ToString().Trim();
         }
 
     }

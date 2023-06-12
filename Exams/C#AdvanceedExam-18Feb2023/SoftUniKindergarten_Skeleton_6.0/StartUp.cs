@@ -44,7 +44,7 @@ namespace SoftUniKindergarten
             // False
             Console.WriteLine(kindergarten.RemoveChild("Tim Duncan"));
             // False
-            Console.WriteLine(kindergarten.ChildrenCount());
+            Console.WriteLine(kindergarten.ChildrenCount);
             // 5
             Console.WriteLine(kindergarten.GetChild("T Rex"));
             //Child: S Rex, Age: 2, Contact info: Steven Spielberg - 63 001 09 93
