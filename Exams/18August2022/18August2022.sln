@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaContest", "BaristaCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpAMole", "HelpAMole\HelpAMole.csproj", "{7637AFFD-1BFD-4B18-A86D-33BC9C3018CF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basketball", "03. Basketball_Skeleton\Basketball.csproj", "{B20CFD2A-A86D-42E6-A784-15EFF831B4CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7637AFFD-1BFD-4B18-A86D-33BC9C3018CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7637AFFD-1BFD-4B18-A86D-33BC9C3018CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7637AFFD-1BFD-4B18-A86D-33BC9C3018CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20CFD2A-A86D-42E6-A784-15EFF831B4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20CFD2A-A86D-42E6-A784-15EFF831B4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20CFD2A-A86D-42E6-A784-15EFF831B4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20CFD2A-A86D-42E6-A784-15EFF831B4CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
