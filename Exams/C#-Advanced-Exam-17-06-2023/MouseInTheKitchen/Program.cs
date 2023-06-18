@@ -110,7 +110,7 @@ while ((command = Console.ReadLine()) != "danger")
 
 if (cheese > 0 && !isTraped && !eatAllCheese && !isOutside)
 {
-    matrix[startRow, startCol] = 'M';
+   
     Console.WriteLine("Mouse will come back later!");
 }
 
